@@ -1,7 +1,6 @@
 package com.nayarasantos.workshopmongo.resources.exception;
 
-import com.nayarasantos.workshopmongo.services.service.ObjectNotFoundException;
-import jakarta.servlet.http.HttpServlet;
+import com.nayarasantos.workshopmongo.services.exception.ObjectNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

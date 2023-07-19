@@ -3,7 +3,7 @@ package com.nayarasantos.workshopmongo.services;
 import com.nayarasantos.workshopmongo.domain.User;
 import com.nayarasantos.workshopmongo.dto.UserDTO;
 import com.nayarasantos.workshopmongo.repository.UserRepository;
-import com.nayarasantos.workshopmongo.services.service.ObjectNotFoundException;
+import com.nayarasantos.workshopmongo.services.exception.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
